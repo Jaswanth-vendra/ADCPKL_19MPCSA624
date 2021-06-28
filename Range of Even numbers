@@ -1,0 +1,15 @@
+public class Range
+{
+    public static void main(String [] args)
+      {
+        int x = 5;
+        System.out.println("Even numbers");
+        while(x<=10) 
+      {
+            System.out.println(x * 2);
+           x++;
+        }
+    }
+}
+OUTPUT:
+10 12 14 16 18 20
