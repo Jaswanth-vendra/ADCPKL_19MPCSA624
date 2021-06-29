@@ -1,15 +1,21 @@
-public class Range
-{
-    public static void main(String [] args)
-      {
-        int x = 5;
-        System.out.println("Even numbers");
-        while(x<=10) 
-      {
-            System.out.println(x * 2);
-           x++;
-        }
-    }
+import java.util.Scanner;  
+public class DisplayEvenNumbersExample3  
+{  
+public static void main(String[] args)   
+{  
+int number, m;  
+Scanner sc=new Scanner(System.in);  
+System.out.print("Enter the limit: ");  
+number = sc.nextInt();    
+m=50;   
+System.out.print("List of even numbers: ");  
+while(i>=n)  
+{ 
+System.out.print(i +" ");   
+i=i-2;  
+}     
+}  
 }
 OUTPUT:
-10 12 14 16 18 20
+Enter the limit:10
+50 48 46 44 42 40 38 36 34 32 30 28 26 24 22 20 18 16 14 12 10 
