@@ -1,0 +1,23 @@
+public class HarshadNumber  
+{  
+    public static void main(String[] args)
+ {  
+        int num = 6804;  
+        int rem = 0, sum = 0, k;  
+        k = num;
+
+        while(num > 0)
+         {  
+            rem = num%10;  
+            sum = sum + rem;  
+            num = num/10;  
+         }  
+           
+        if(k%sum==0)  
+            System.out.println(k + " is a harshad number");  
+        else  
+            System.out.println(k + " is not a harshad number");  
+    }  
+}  
+OUTPUT:
+6804 is a harshad number
