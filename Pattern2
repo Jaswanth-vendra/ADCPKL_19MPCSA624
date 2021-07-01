@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class Pattern2
+{
+    public static void main(String[] args)
+    {
+         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the number of rows needed to print the pattern ");
+        int p = scanner.nextInt();  
+        for (int i=1; i<=p; i++)
+        {
+            for (int j = 1; j <= i; j++)
+             {
+                System.out.print("*");
+             }
+            System.out.println();
+        }
+        for (int i=1; i<=p-1; i++) 
+           { 
+             for (int j = p-1; j >= i; j--)
+               {
+                System.out.print("*");
+               }
+              for (int k = 1; k < i; k++)
+            {
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+        scanner.close();
+    }
+}
+OUTPUT:
+Enter the number of rows needed to print the pattern: 5
+*
+**
+***
+****
+*****
+****
+***
+**
+*
